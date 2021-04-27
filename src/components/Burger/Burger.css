@@ -12,6 +12,7 @@
     .Burger{
         width: 350px;
         height: 300px;
+        overflow: hidden;
     }
 }
 
@@ -19,6 +20,7 @@
     .Burger{
         width: 450px;
         height: 400px;
+        overflow: hidden;
     }
 }
 
@@ -26,5 +28,6 @@
     .Burger{
         width: 700px;
         height: 600px;
+        overflow: hidden;
     }
 }
