@@ -2,11 +2,14 @@ import React from 'react';
 
 import Auxilary from '../../hoc/Auxilary';
 import './Layout.css';
+import Toolbar from '../Navigation/Toolbar/Toolbar';
+import SideDrawer from '../Navigation/SideDrawer/SideDrawer';
 
 const layout = (props) =>(
     <React.Fragment>
     
-    <div>toolbar, sideDrawer, Backdrop</div>
+    <Toolbar/>
+    <SideDrawer/>
     <main className="Content">
         {props.children}
     </main>
